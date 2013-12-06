@@ -35,7 +35,7 @@
 <div>
 <%= f.label :category %><br>
 <%= f.collection_select :category_ids,
-Category.all, :id, :name, { selected: @tour.category_ids,
+Category.all, :id, :name, { selected: @tour.category_ids , 
 multiple: true } %>
 </div>
 
